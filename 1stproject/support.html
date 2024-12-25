@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="support.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="nav-content">
+        <a href="index.html"><img
+                src="https://marketplace.canva.com/EAFaFUz4aKo/2/0/1600w/canva-yellow-abstract-cooking-fire-free-logo-JmYWTjUsE-Q.jpg"
+                alt=""></a>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+        <input type="text" class="search-bar" placeholder="Search Here">
+    </nav>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Need Help? We're Here for You!</h2>
+                <p>Browse our frequently asked questions or reach out to our support team for assistance.</p>
+                <a href="#" class="btn">Get Started</a>
+            </div>
+        </section>
+
+        <section class="faq">
+            <div class="container">
+                <h3>Frequently Asked Questions</h3>
+                <div class="faq-item">
+                    <h4>How do I reset my password?</h4>
+                    <p>To reset your password, click on "Forgot password" on the login page, enter your email, and
+                        follow the instructions.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Where can I track my order?</h4>
+                    <p>You can track your order by logging into your account and visiting the "Order History" section.
+                    </p>
+                </div>
+                <div class="faq-item">
+                    <h4>How do I contact support?</h4>
+                    <p>Fill out the form on the "Contact Us" page, and our team will get back to you within 24 hours.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section id="faq">
+        <h2>Frequently Asked Questions (FAQs)</h2>
+        <div class="faq-item">
+            <h3>How do I sign up for a cooking class?</h3>
+            <p>You can sign up for our cooking classes by visiting the "Classes" page and selecting the class you are interested in.</p>
+        </div>
+        <div class="faq-item">
+            <h3>What is the refund policy?</h3>
+            <p>Refunds are available up to 24 hours before the class. Please contact us for assistance.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Can I access recorded lessons?</h3>
+            <p>Yes, recorded lessons are available to enrolled students. Visit the "My Account" page to view your courses.</p>
+        </div>
+    </section>
+
+    <section id="contact-form">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

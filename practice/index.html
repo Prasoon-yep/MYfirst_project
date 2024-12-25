@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="grid grid-cols-2 mt-5 mx-10">
+        <div>
+            <img class="h-90 w-full p-5"
+                src="https://media.istockphoto.com/id/1316145932/photo/table-top-view-of-spicy-food.jpg?s=612x612&w=0&k=20&c=eaKRSIAoRGHMibSfahMyQS6iFADyVy1pnPdy1O5rZ98="
+                alt="">
+            <div class="grid grid-cols-2">
+                <div class="border-2 p-5 ml-5">
+                    <h1 class="font-bold mb-5">Supportive member</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate asperiores qui temporibus
+                        repellat corporis adipisci aut eos veritatis officia id culpa iure atque, unde nemo. Neque quos
+                        iure minima odio.</p>
+                </div>
+                <div class="ml-10 border-2 p-5 mr-5">
+                    <h1 class="font-bold mb-5">Name of employee</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur placeat officia ut, atque
+                        minima officiis voluptates recusandae cum earum. Earum atque nulla veritatis deleniti non,
+                        exercitationem nisi reprehenderit magnam tempora!</p>
+                </div>
+            </div>
+        </div>
+        <div class="p-5 mt-20">
+            <h2 class="font-bold">About page</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, quis delectus? Repellat, deserunt numquam
+                ipsum perspiciatis rem voluptate pariatur illum adipisci nemo corporis sed, aliquam voluptatem maiores
+                molestias velit labore consequuntur, maxime cumque molestiae quidem. Rem veritatis corporis nulla est
+                eligendi laborum ipsa nostrum consequatur inventore suscipit molestias voluptas quam, voluptate placeat?
+                Ea ipsam totam nam, provident expedita commodi quas corrupti alias excepturi, quasi reiciendis? Ducimus
+                quidem quasi perspiciatis id optio nam, corporis officia sit sapiente cumque repellendus, non reiciendis
+                accusamus, doloremque perferendis voluptas voluptatum ea sint animi nostrum quo? Nobis quisquam
+                explicabo animi voluptate, iure eius quas ipsam quos.</p>
+        </div>
+    </div>
+
+    <div id="popup" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+        <div class="bg-white rounded-lg shadow-lg p-6 relative w-96">
+            <button id="close-btn"
+                class="absolute top-2 right-2 text-gray-600 hover:text-red-500 text-xl font-bold">&times;</button>
+                    <h1 class="text-2xl font-bold mb-4 flex justify-center items-center">Welcom to Lumbini ICT!</h1>
+                    <p class="flex justify-center items-center font-bold">Gaidakot,Nawalpur</p>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript to handle the popup close action
+        window.onload = () => {
+            const popup = document.getElementById("popup");
+            const closeButton = document.getElementById("close-btn");
+
+            closeButton.addEventListener("click", () => {
+                popup.classList.add("hidden");
+            });
+        };
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+body{
+    font-family: sans-serif;
+}
+
+.image{
+    background-image:url('https://media.istockphoto.com/id/2160466316/photo/abstract-network-of-digital-particles.jpg?s=2048x2048&w=is&k=20&c=2PLml9n2aTOnG2D-3466aSOiq_T2H6wnpQ5rub5Yl_U=') ;
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+}
