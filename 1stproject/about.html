@@ -7,12 +7,29 @@
     <title>About Us | Cooking Recipes</title>
     <link rel="stylesheet" href="about.css"> <!-- Link to CSS file -->
     <link rel="stylesheet" href="index.html">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
     <header>
         <h1>Cooking Recipes</h1>
-        <nav class="nav-content">
+        <nav class="flex justify-between items-center bg-blue-100">
+            <a href="index.html"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAHXPluq6GtTRPDIHRv5kJPy86uFjp5sO7hg&s"
+                    alt="" class="w-16 p-2"></a>
+            <div class="hidden md:flex gap-12 font-bold">
+                <a href="index.html" class="hover:text-red-500">Home</a>
+                <a href="contact.html" class="hover:text-red-500">Contact us</a>
+                <a href="support.html" class="hover:text-red-500">Support</a>
+                <a href="about.html" class="hover:text-red-500">About us</a>
+            </div>
+            <button class="hidden md:flex px-2 py-2 border-2 border-black mr-2 hover:border-red-500"><i class="ri-arrow-right-line"></i><h1 class="font-bold">Explor our kitchen</h1></button>  
+            
+            
+            <button class="text-grey-500 md:hidden"><i class="ri-menu-line"></i></button>        
+        </nav>
+
+        <!-- <nav class="nav-content">
             <img src="https://marketplace.canva.com/EAFaFUz4aKo/2/0/1600w/canva-yellow-abstract-cooking-fire-free-logo-JmYWTjUsE-Q.jpg"
                 alt="">
             <ul class="menu">
@@ -22,7 +39,7 @@
                 <li><a href="#">Support</a></li>
             </ul>
             <input type="text" class="search-bar" placeholder="Search Here">
-        </nav>
+        </nav> -->
     </header>
 
     <main>
