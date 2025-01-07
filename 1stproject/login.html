@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex items-center justify-center min-h-screen w-full bg-cover"
+    style="background-image: url('https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431265.jpg?t=st=1735826421~exp=1735830021~hmac=ae221ab3c17c7b1b4889e4215401e7b238ad5fbe220c1e865ce99a8eb4a2c55c&w=1060');">
+
+    <div class="w-full max-w-md bg-blue-100 rounded-lg shadow-md p-8">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">Login</h2>
+        <form action="#" method="POST" class="space-y-4">
+            <!-- Email -->
+            <div>
+                <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                <input type="email" id="email" name="email"
+                    class="w-full mt-1 px-4 py-2 border rounded-lg text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    placeholder="Enter your email" required>
+            </div>
+            <!-- Password -->
+            <div>
+                <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+                <input type="password" id="password" name="password"
+                    class="w-full mt-1 px-4 py-2 border rounded-lg text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    placeholder="Enter your password" required>
+            </div>
+            <!-- Submit Button -->
+            <button type="submit"
+                class="w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-300">
+                Login
+            </button>
+        </form>
+        <!-- Footer -->
+        <div class="mt-6 text-center text-sm text-gray-600">
+            Don't have an account? <a href="#" class="text-blue-500 hover:underline">Sign up</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
